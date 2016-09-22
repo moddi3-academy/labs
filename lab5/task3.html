@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			width: 80%;
+			margin: 15px auto;
+		}
+		header{
+			line-height: 50px;
+			border:1px solid #dedede;
+			position: relative;
+			height: 50px;
+			border-radius: 3px;
+			min-width: 600px; 
+			min-height: 50px; 
+		}
+		header > div{
+			position: absolute;
+		}
+		.col1{
+			width: 50%;
+			left: 15px;
+		}
+		.col2{
+			width: 50%;
+			right: 0px;
+		}
+		.col2 > span{
+			position: absolute;
+			right:15px;
+		}
+		.separator{
+	    display: inline-block;
+	    width: 0px;
+	    height: 12px;
+	    border-right: 1px solid #dedede;
+	    padding: 0;
+	}
+	a{
+		text-decoration: none;
+		color: #06e;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="col1"><span><a href="../index.html">Шапка</a></span></div>
+		<div class="col2">
+			<span>
+				<time datetime="2016-09-21">21 вересня</time> 
+				<div class="separator"></div>
+				<time>15:13</time>
+			</span>
+		</div>
+	</header>
+</body>
+</html>

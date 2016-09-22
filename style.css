@@ -1,0 +1,103 @@
+
+/* Main */
+html {
+  font-family: "Open Sans";
+
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0 auto;
+}
+/* Wrapper
+--------------------------
+*/
+
+.wrapper {
+  position: relative;
+
+  width: 80%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+/* Border
+--------------------------
+*/
+
+.border {
+  margin-top: 20px;
+  padding: 15px;
+
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+}
+.border:hover {
+  border-color: #bdbdbd;
+}
+/* Header 
+--------------------------
+*/
+.header {
+  line-height: 50px;
+
+  position: relative;
+
+  height: 50px;
+  margin-top: 0;
+
+  border-top: none;
+}
+.header > div {
+  position: absolute;
+}
+.col1 {
+  left: 15px;
+
+  width: 50%;
+}
+.col2 {
+  right: 0px;
+
+  width: 50%;
+}
+.col2 > span {
+  position: absolute;
+  right: 15px;
+}
+.separator {
+  display: inline-block;
+
+  width: 0px;
+  height: 12px;
+  padding: 0;
+
+  border-right: 1px solid #dedede;
+}
+/* Content
+--------------------------
+*/
+.content {
+  padding-bottom: 90px;
+}
+/* Footer
+--------------------------
+*/
+.footer {
+  line-height: 25px;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+
+  border-bottom: none;
+}
+a:visited {
+  color: #0000ee;
+}
+a:active {
+  color: #757575;
+}

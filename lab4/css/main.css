@@ -1,0 +1,125 @@
+	html {
+  padding-top: 25px;
+
+ /* background: url("../img/148.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+*/
+background-image: url(data:image/png;base64,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);
+  background-color: #ededed;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+
+  background-color: #f5f5f5;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5), -10px 10px 10px rgba(0,0,0,0.5);
+}
+h1 {
+  font-weight: normal;
+
+  color: #666666;
+}
+p {
+  font-family: Verdana,Arial, Helvetica, sans-serif;
+}
+h1 ,
+h2 {
+  font-family: Verdana,Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 2.2em;
+  font-weight: normal;
+  font-weight: normal;
+
+  margin: 0;
+  padding: 0 0 2px 60px;
+
+  color: #b1967c;
+  border-bottom: 2px white solid;
+  background: url()no-repeat 10px 6px;
+}
+figure img {
+  padding: 4px;
+
+  border: 1px solid #666666;
+  background-color: #ffffff;
+}
+figcaption {
+  font: l.lem/normal Arial, Helvetica, sans-serif;
+
+  margin: 10px 0 0 0;
+
+  text-align: center;
+}
+figure {
+  float: right;
+
+  width: 210px;
+  margin: 0 10px 10px 10px;
+}
+.intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+
+  margin-left: 0;
+
+  color: #6a94cc;
+}
+a {
+  font-size: 2em;
+
+  text-decoration: none;
+
+  color: #6a94cc;
+}
+a:visited {
+  color: #0000ee;
+}
+a:active {
+  color: #757575
+}
+a[href^="https://"] {
+  color: red;
+}
+.inventory {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+  width: 100%;
+  margin-top: 25px;
+
+  border-collapse: collapse;
+}
+.inventory > caption {
+  font-size: 1.3em;
+
+  margin-bottom: 10px;
+
+  text-align: right;
+}
+tbody > tr:nth-child(odd) {
+  background-color: #ffcdd2;
+}
+td ,
+th {
+  font-size: 1.4em;
+
+  padding: 3px 7px 2px 7px;
+
+  border: 1px solid #ddb575;
+}
+th {
+  padding-top: 5px;
+  padding-bottom: 4px;
+
+  text-align: left;
+  text-transform: uppercase;
+
+  color: white;
+  background: rgb(229,76,16);
+  background: -webkit-linear-gradient(rgb(229,76,16), rgb(173,54,8));
+  background:    -moz-linear-gradient(rgb(229,76,16), rgb(173,54,8));
+  background:      -o-linear-gradient(rgb(229,76,16), rgb(173,54,8));
+  background:         linear-gradient(rgb(229,76,16), rgb(173,54,8));
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  body {
+    width: 530px;
+    margin: 10px auto;
+  }
+  
+  fieldset {
+    width: 500px;
+  }
+  
+  form {}
+  /*footer{
+			border-top: 1px red solid;
+		}*/
+  </style>
+</head>
+
+<body>
+<a href="../index.html">Main</a>
+  <form action="">
+    <fieldset>
+      <legend>Персональная информация</legend>
+      <p>
+        <label for="name">Фамилия:*
+          <br>
+          <input type="text" name="name">
+        </label>
+      </p>
+      <p>
+        <label for="name">Имя:*
+          <br>
+          <input type="text" name="name">
+        </label>
+      </p>
+      <p>
+        <label for="name">По отчеству:*
+          <br>
+          <input type="text" name="name">
+        </label>
+      </p>
+      <p>
+        <label for="gender">Стать:
+          <input type="radio" value="m" name="gender" checked="">М
+          <input type="radio" value="w" name="gender">Ж
+        </label>
+      </p>
+      <p>
+        <label for="date">Дата рождения:
+          <input type="date" name="date">
+        </label>
+      </p>
+      <p>
+        <label for="edu">Образование:
+          <input type="text" list="edu" name="edu">
+          <datalist id="edu">
+            <optgroup>
+              <option value="ПТУ"></option>
+              <option value="Колледж"></option>
+              <option value="Школа"></option>
+            </optgroup>
+          </datalist>
+        </label>
+      </p>
+      <p><label for="interests"></label>Интересы:
+        <br>
+        <select size="5" multiple name="interests">
+            <option value="Футбол">Футбол</option>
+            <option value="Программировани">Программирование</option>
+            <option value="Музыка">Музыка</option>
+            <option selected value="Рыбалка">Рыбалка</option>
+            <option value="Ничего">Ничего</option>
+        </select>
+      </p>
+      <p><label for="about">Про себя:
+          <br>
+          <textarea name="about" id="" cols="50" rows="10"></textarea>
+        </label>
+      </p>
+      <p><label for="file">Фото для загрузки
+            <input type="file" name="file">
+         </label>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Контактная информация</legend>
+      <p><label for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="example@example.com">
+      </p>
+      <p><label for="tel">Телефон:</label>
+        <input type="tel" name="tel">
+      </p>
+    </fieldset>
+    <p><label for="spam">Спам:
+          <input type="radio" value="y" name="spam">ДА
+          <input type="radio" value="n" name="spam">НЕТ
+      </label>
+    </p>
+    <p>
+      <label for="letters">Количество писем в день:
+        <input type="radio" name="letters" value="2" checked="">2
+        <input type="radio" name="letters" value="4">4
+        <input type="radio" name="letters" value="6">6
+        <input type="radio" name="letters" value="8">8
+      </label>
+    </p>
+    <input type="reset">
+    <input type="submit">
+  </form>
+  <hr>
+  <footer>
+    <p>Ivanov V. PS-1401</p>
+  </footer>
+</body>
+
+</html>
