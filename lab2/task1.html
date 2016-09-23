@@ -4,9 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
-		td, th{
-			border:1px red dashed;"
+	table{
+		border-collapse: collapse;
 		}
+		td, th{
+			padding: 3px;
+			border:1px red dashed;
+	}
+
 	</style>
 </head>
 <body>
@@ -14,93 +19,104 @@
 	<a href="../index.html">Main</a>
 	<table>
 		<caption>Table 1</caption>
-		<tr>
-			<th>Album</th>
-			<th>Year</th>
-		</tr>
-		<tr>
-			<td>Transmissions</td>
-			<td>1993</td>
-		</tr>
-		<tr>
-			<td>Luciana</td>
-			<td>1994</td>
-		</tr>
-		<tr>
-			<td>Beyond the Infinite</td>
-			<td>1995</td>
-		</tr>
-		<tr>
-			<td>Bible of Dreams</td>
-			<td>1997</td>
-		</tr>
-		<tr>
-			<td>Shango</td>
-			<td>2000</td>
-		</tr>
-		<tr>
-			<td>Labyrinth</td>
-			<td>2004</td>
-		</tr>
-		<tr>
-			<td>Gods &amp Monsters</td>
-			<td>2008</td>
-		</tr>
-		<tr>
-			<td>Inside The Reactor</td>
-			<td>2011</td>
-		</tr>
-		<tr>
-			<td>The Golden Sun of The Great East</td>
-			<td>2013</td>
-		</tr>
+		<thead>
+			<tr>
+				<th>Album</th>
+				<th>Year</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Transmissions</td>
+				<td>1993</td>
+			</tr>
+			<tr>
+				<td>Luciana</td>
+				<td>1994</td>
+			</tr>
+			<tr>
+				<td>Beyond the Infinite</td>
+				<td>1995</td>
+			</tr>
+			<tr>
+				<td>Bible of Dreams</td>
+				<td>1997</td>
+			</tr>
+			<tr>
+				<td>Shango</td>
+				<td>2000</td>
+			</tr>
+			<tr>
+				<td>Labyrinth</td>
+				<td>2004</td>
+			</tr>
+			<tr>
+				<td>Gods &amp Monsters</td>
+				<td>2008</td>
+			</tr>
+			<tr>
+				<td>Inside The Reactor</td>
+				<td>2011</td>
+			</tr>
+			<tr>
+				<td>The Golden Sun of The Great East</td>
+				<td>2013</td>
+			</tr>
+		</tbody>
 	</table>
 	<!-- TABLE2 -->
 	<br>
 	<table>
 		<caption>Table 2</caption>
-		<tr>
-			<th>1:00</th>
-			<th>2:00</th>
-			<th>3:00</th>
-		</tr>
-		<tr>
-			<td colspan="3">lorem2</td>
-		</tr>
-		<tr>
-			<td>lorem2</td>
-			<td>lorem2</td>
-			<td>lorem2</td>
-		</tr>
-		<tr>
-			<td>lorem2
-				<td colspan="2">lorem2</td>
-			</td>
-		</tr>
+		<thead>
+			<tr>
+				<th>1:00</th>
+				<th>2:00</th>
+				<th>3:00</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan="3">lorem2</td>
+			</tr>
+			<tr>
+				<td>lorem2</td>
+				<td>lorem2</td>
+				<td>lorem2</td>
+			</tr>
+			<tr>
+				<td>lorem2
+					<td colspan="2">lorem2</td>
+				</td>
+			</tr>
+		</tbody>
 	</table>
 	<!-- TABLE3 -->
 	<br>
 	<table>
 		<caption>Table 3</caption>
-		<tr>
-			<td>lorem2
-				<td rowspan="3">lorem2</td>
+		<tbody>
+			<tr>
+				<td>lorem2
+					<td rowspan="3">lorem2</td>
+					<td>lorem2</td>
+				</td>
+			</tr>
+			<tr>
+				<td>lorem2
+					<td rowspan="2">lorem2</td>
+				</td>
+			</tr>
+			<tr>
 				<td>lorem2</td>
-			</td>
-		</tr>
-		<tr>
-			<td>lorem2
-				<td rowspan="2">lorem2</td>
-			</td>
-		</tr>
-		<tr>
-			<td>lorem2</td>
-		</tr>
+			</tr>
+		</tbody>
 	</table>
 	<!-- TABLE4 -->
 	<br>
 	<table>
 		<caption>TABLE 4</caption>
+		<tbody>
 			<tr>
 				<td rowspan="2"></td>
 				<th colspan="2">Заголовок для 2 подзаголовков</th>
@@ -128,6 +144,7 @@
 				<td>Данные В2</td>
 				<td>Данные В3</td>
 			</tr>
+		</tbody>
 	</table>
 <footer>
 	<p>Ivanov V.</p>

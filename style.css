@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 /* Main */
 html {
   font-family: "Open Sans";
@@ -38,11 +40,11 @@ body {
 --------------------------
 */
 .header {
-  line-height: 50px;
+  line-height: 70px;
 
   position: relative;
 
-  height: 50px;
+  height: 70px;
   margin-top: 0;
 
   border-top: none;
@@ -89,7 +91,6 @@ body {
   bottom: 0;
   left: 0;
 
-  box-sizing: border-box;
   width: 100%;
   height: 50px;
 
