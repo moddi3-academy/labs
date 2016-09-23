@@ -4,7 +4,7 @@
 **Мета:** Навчитися створювати таблиці заданого розміру; навчитися об'єднувати ячейки по горизонталі і вертикалі; навчитися створювати фіксовані таблиці.
 
 **Таблиця 1**
-<table><caption>Table 1</caption><thead><tr><th>Album</th><th>Year</th></tr></thead><tbody><tr><td>Transmissions</td><td>1993</td></tr><tr><td>Luciana</td><td>1994</td></tr><tr><td>Beyond the Infinite</td><td>1995</td></tr><tr><td>Bible of Dreams</td><td>1997</td></tr><tr><td>Shango</td><td>2000</td></tr><tr><td>Labyrinth</td><td>2004</td></tr><tr><td>Gods & Monsters</td><td>2008</td></tr><tr><td>Inside The Reactor</td><td>2011</td></tr><tr><td>The Golden Sun of The Great East</td><td>2013</td></tr></tbody></table>
+<table><caption>Table 1</caption><thead><tr><th>Album</th><th>Year</th></tr></thead><tbody><tr><td>Transmissions</td><td>1993</td></tr><tr><td>Luciana</td><td>1994</td></tr><tr><td>Beyond the Infinite</td><td>1995</td></tr><tr><td>Bible of Dreams</td><td>1997</td></tr><tr><td>Shango</td><td>2000</td></tr><tr><td>Labyrinth</td><td>2004</td></tr><tr><td>Inside The Reactor</td><td>2011</td></tr><tr><td>The Golden Sun of The Great East</td><td>2013</td></tr></tbody></table>
 
 ```html
 <table>
