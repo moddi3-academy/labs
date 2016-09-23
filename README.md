@@ -30,7 +30,8 @@
 ```
 </div>
 </div>
-___
+***
+
 
 **Таблиця 2**
 <table><thead><tr><th>1:00</th><th>2:00</th><th>3:00</th></tr></thead><tbody><tr><td colspan="3">lorem2</td></tr><tr><td>lorem2</td><td>lorem2</td><td>lorem2</td></tr><tr><td>lorem2<td colspan="2">lorem2</td></td></tr></tbody></table>
@@ -58,8 +59,7 @@ ___
 ```
 </div>
 </div>
-___
-
+***
 **Таблиця 3**
 <table><tbody><tr><td>lorem2<td rowspan="3">lorem2</td><td>lorem2</td></td></tr><tr><td>lorem2<td rowspan="2">lorem2</td></td></tr><tr><td>lorem2</td></tr></tbody></table>
 ```html
@@ -84,7 +84,7 @@ ___
 	</table>
 </div>
 ```
-___
+***
 
 
 **Таблиця 4**
