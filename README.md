@@ -131,7 +131,7 @@
 
 *Створити форму form.html для заповнення анкети (див. зразок нижче). Збережіть файл у попередньо створеній папці lab02. Зв’язати сторінки index.html та form.html посиланнями.*
 
-![logo](img/1.png "Form")
+![form](img/1.png "Form")
 
  ```html
   <form action="" method="GET" " enctype="multipart/form-data">
