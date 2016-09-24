@@ -22,8 +22,8 @@
 </head>
 
 <body>
-<a href="../index.html">Main</a>
-  <form action="">
+<!--<a href="../index.html">Main</a>-->
+  <form action="" method="GET" " enctype="multipart/form-data">
     <fieldset>
       <legend>Персональная информация</legend>
       <p>
@@ -59,22 +59,23 @@
         <label for="edu">Образование:
           <input type="text" list="edu" name="edu">
           <datalist id="edu">
-            <optgroup>
-              <option value="ПТУ"></option>
-              <option value="Колледж"></option>
-              <option value="Школа"></option>
+            <optgroup value="vnz">
+              <option value="Колледж">1</option>
+              <option value="ПТУ">2</option>
+              <option value="Школа">3</option>
             </optgroup>
           </datalist>
         </label>
       </p>
-      <p><label for="interests"></label>Интересы:
-        <br>
+      <p>
         <select size="5" multiple name="interests">
+          <optgroup label="Интересы">
             <option value="Футбол">Футбол</option>
-            <option value="Программировани">Программирование</option>
+            <option value="Программирование">Программирование</option>
             <option value="Музыка">Музыка</option>
             <option selected value="Рыбалка">Рыбалка</option>
             <option value="Ничего">Ничего</option>
+          </optgroup>
         </select>
       </p>
       <p><label for="about">Про себя:
@@ -109,8 +110,10 @@
         <input type="radio" name="letters" value="8">8
       </label>
     </p>
-    <input type="reset">
-    <input type="submit">
+    <p>
+      <input type="reset">
+      <input type="submit">
+    </p>
   </form>
   <hr>
   <footer>

@@ -118,3 +118,118 @@
 	</table>
 ```
 **Висновок:** Я навчився створювати таблиці заданого розміру; навчився об'єднувати ячейки по горизонталі і вертикалі; навчився створювати фіксовані таблиці.
+
+### Лабораторна робота №3
+**Тема:** Створення форм за допомогою HTML
+
+**Мета:** Навчитися створювати форми і вказувати обробників форм;
+Навчитися створювати елементи управління форми.
+
+
+**Завдання**
+
+
+*Створити форму form.html для заповнення анкети (див. зразок нижче). Збережіть файл у попередньо створеній папці lab02. Зв’язати сторінки index.html та form.html посиланнями.*
+
+![logo](img/1.png "Form")
+
+ ```html
+  <form action="" method="GET" " enctype="multipart/form-data">
+    <fieldset>
+      <legend>Персональная информация</legend>
+      <p>
+        <label for="name">Фамилия:*
+          <br>
+          <input type="text" name="name">
+        </label>
+      </p>
+      <p>
+        <label for="name">Имя:*
+          <br>
+          <input type="text" name="name">
+        </label>
+      </p>
+      <p>
+        <label for="name">По отчеству:*
+          <br>
+          <input type="text" name="name">
+        </label>
+      </p>
+      <p>
+        <label for="gender">Стать:
+          <input type="radio" value="m" name="gender" checked="">М
+          <input type="radio" value="w" name="gender">Ж
+        </label>
+      </p>
+      <p>
+        <label for="date">Дата рождения:
+          <input type="date" name="date">
+        </label>
+      </p>
+      <p>
+        <label for="edu">Образование:
+          <input type="text" list="edu" name="edu">
+          <datalist id="edu">
+            <optgroup value="vnz">
+              <option value="Колледж">1</option>
+              <option value="ПТУ">2</option>
+              <option value="Школа">3</option>
+            </optgroup>
+          </datalist>
+        </label>
+      </p>
+      <p>
+        <select size="5" multiple name="interests">
+          <optgroup label="Интересы">
+            <option value="Футбол">Футбол</option>
+            <option value="Программирование">Программирование</option>
+            <option value="Музыка">Музыка</option>
+            <option selected value="Рыбалка">Рыбалка</option>
+            <option value="Ничего">Ничего</option>
+          </optgroup>
+        </select>
+      </p>
+      <p><label for="about">Про себя:
+          <br>
+          <textarea name="about" id="" cols="50" rows="10"></textarea>
+        </label>
+      </p>
+      <p><label for="file">Фото для загрузки
+            <input type="file" name="file">
+         </label>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Контактная информация</legend>
+      <p><label for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="example@example.com">
+      </p>
+      <p><label for="tel">Телефон:</label>
+        <input type="tel" name="tel">
+      </p>
+    </fieldset>
+    <p><label for="spam">Спам:
+          <input type="radio" value="y" name="spam">ДА
+          <input type="radio" value="n" name="spam">НЕТ
+      </label>
+    </p>
+    <p>
+      <label for="letters">Количество писем в день:
+        <input type="radio" name="letters" value="2" checked="">2
+        <input type="radio" name="letters" value="4">4
+        <input type="radio" name="letters" value="6">6
+        <input type="radio" name="letters" value="8">8
+      </label>
+    </p>
+    <p>
+      <input type="reset">
+    </p>
+    <p>
+      <input type="submit">
+    </p>
+  </form>
+
+ ```
+
+**Висновок:** Я навчився створювати форми і вказувати обробників форм;
+Навчився створювати елементи управління форми.
