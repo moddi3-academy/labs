@@ -3,7 +3,7 @@
 }
 /* Main */
 html {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 
   height: 100%;
 }
@@ -36,7 +36,7 @@ body {
 .border:hover {
   border-color: #bdbdbd;
 }
-/* Header 
+/* Header
 --------------------------
 */
 .header {
