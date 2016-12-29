@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--<meta name="viewport" content="width=device-width">-->
+		<title>RWD</title>
+		<link href="styles/rwd.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="layout">
+			<div class="header">
+				<h1>Hreader</h1>
+			</div>
+			<div class="sidebar">
+				<a id="show" href="">Show</a>
+				<ul id="menu">
+					<li><a href="#">one</a></li>
+					<li><a href="#">two</a></li>
+					<li><a href="#">three</a></li>
+					<li><a href="#">four</a></li>
+					<li><a href="#">five</a></li>
+					<li><a href="#">six</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum dolor id purus imperdiet gravida. Etiam rhoncus molestie lorem tristique dictum. Proin efficitur vehicula ipsum eget tristique. Phasellus tempor lacinia turpis, in congue sem dignissim porta. Fusce interdum accumsan velit in tempor. Vestibulum tempus erat nec turpis fringilla egestas. Donec scelerisque, justo sit amet porta efficitur, enim lectus tempus urna, vitae molestie mi ante sed justo. Nam tempor odio lectus, sed feugiat diam aliquam ac. Fusce congue bibendum enim et vehicula. Maecenas sagittis iaculis viverra.</p>
+				<p>Cras non tempus risus, non tincidunt odio. Donec ac fringilla est. Sed nunc nisl, tincidunt in diam non, vehicula consectetur metus. Nam vel ipsum tincidunt, tristique quam eget, ultricies sapien. Nullam ac arcu ac diam gravida dapibus id eget nibh. Fusce mollis quis ipsum a porttitor. Vestibulum congue ultrices metus, nec porta erat aliquam nec. Nullam pharetra nunc erat. Cras id pharetra lacus. Quisque facilisis felis id rhoncus semper. Nulla accumsan semper condimentum. Etiam convallis velit at sem pretium auctor. Quisque eu est bibendum, gravida purus ac, aliquam felis. Pellentesque aliquet pulvinar quam auctor mollis. Vivamus faucibus justo eget ligula laoreet, eget blandit erat vestibulum. Nunc lacus lorem, porta viverra dignissim in, porttitor sit amet justo.</p>
+				<p>Morbi at augue consectetur, condimentum ante at, suscipit tellus. Duis dictum nulla id mollis interdum. Maecenas faucibus blandit metus non luctus. Sed eu orci mattis risus pretium malesuada. Mauris ac ex ac urna commodo dignissim. Mauris ut libero id massa aliquet egestas. Nunc eu sollicitudin ex. Fusce eget malesuada nisl, in iaculis eros. Nulla quis posuere tellus, ac fringilla ante. Integer fermentum turpis id urna volutpat gravida. Curabitur consequat tincidunt metus eu suscipit. Ut accumsan ultricies nisl ut imperdiet. Donec rutrum posuere convallis. Mauris lobortis, leo blandit porttitor tempus, leo magna interdum nunc, vitae tincidunt sapien augue eu lacus.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel laoreet purus. Quisque in ex nec metus pulvinar elementum. Quisque ac efficitur tortor, a placerat neque. Curabitur vestibulum, libero ac dictum gravida, ligula libero dignissim nisi, et gravida velit urna vel est.</p>
+			</div>
+			<div class="footer">&copy;Copyright</div>
+		</div>
+		<script>
+		var changeDisplayState = function(id){
+			var d = document.getElementById('show'),
+			e = document.getElementById(id);
+			if (e.style.display === 'none' || e.style.display === ''){
+				e.style.display='block';
+				d.innerHTML = 'Hide paragraph';
+			}
+			else {
+				e.style.display = 'none';
+				d.innerHTML = 'Show paragraph';
+			}
+		};
+		document.getElementById('show').onclick = function(){
+			changeDisplayState('menu');
+			return false;
+		}
+
+		</script>
+	</body>
+</html>

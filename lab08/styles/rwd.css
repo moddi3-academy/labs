@@ -1,0 +1,113 @@
+@-o-viewport {
+	width: device-width;
+}
+@-webkit-viewport {
+	width: device-width;
+}
+@-moz-viewport {
+	width: device-width;
+}
+
+/* Сюди поміщаються стилі, що перезапускають вихідні настройки браузера */
+@import url('reset.css');
+/* Сюди поміщаються стилі для браузерів настільних пристроїв і основні стилі для всіх пристроїв */
+body {
+	background: #f0f0f0;
+}
+.header {
+	height: 100px;
+	padding:20px;
+	border-bottom: 2px solid #e0ecb8;
+}
+.layout {
+	width: 800px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+.content {
+	width:600px;
+	float:left;
+	padding: 10px;
+	background: #e0ecb8;
+}
+.sidebar {
+	width: 200px;
+	padding: 10px;
+	float: right;
+}
+.sidebar ul  {
+		margin-left: 0px;
+		padding-left: 0px;
+		list-style: none;
+	}
+.sidebar ul a {
+	font-weight: bold;
+	color: #e0ecb8;
+	display: block;
+	text-decoration: none;
+	border-bottom: 1px dashed #e0ecb8;
+}
+.sidebar ul a:hover {
+	color: #000000;
+}
+.footer {
+	clear: both;
+	padding: 10px;
+	border-top: 2px solid #e0ecb8;
+}
+.header, .content, .sidebar, .footer{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-radius: 20px 20px 20px 20px;
+}
+/* Тільки для дисплеїв середньої ширини */
+@media (min-width: 481px) and (max-width: 768px) {
+	.layout {
+		width: auto;
+		min-width: 481px;
+		max-width: 768px;
+	}
+	.content {
+		width: 80%;
+	}
+	.sidebar {
+		width: 20%;
+	}
+	.sidebar ul {
+		list-style: none;
+	}
+	.footer {
+
+	}
+}
+#show{
+	display: none;
+}
+/* Тільки для дисплеїв малої ширини */
+@media (max-width: 480px) {
+body {
+/* Властивості, застосовувані тільки до браузерів телефонів */
+}
+	#show{
+		display: block;
+	}
+	#menu{
+		display: none;
+	}
+.layout {
+		width: auto;
+		max-width: 480px;
+	}
+	.content {
+		width: auto;
+		float: none;
+	}
+	.sidebar {
+		width:  auto;
+		float: none;
+	}
+	.footer {
+		clear: none;
+	}
+}
