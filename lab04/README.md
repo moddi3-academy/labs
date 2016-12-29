@@ -47,11 +47,7 @@
       <div class="stock">
         <img src="img/1.jpg" alt="stock">
       </div>
-      <p>Minima odit aliquid incidunt quis dolores non, corporis voluptatem modi.  
-      Possimus libero consequuntur magnam facere fugit vero ab nesciunt officiis,  
-      necessitatibus doloribus placeat tenetur, aliquid quia maiores, aliquam dolorum   
-      quos labore vel nulla accusamus rerum nam facilis. Molestias repellat saepe   
-      incidunt, ex ipsa, sed libero suscipit pariatur ratione, deleniti quibusdam.</p>
+      <p>Minima odit aliquid incidunt dolores non, corporis voluptatem modi.</p>
       <table class="inventory">
         <caption>Table</caption>
         <thead>
@@ -83,41 +79,26 @@
       <header>
         <h1>Header #2</h1>
       </header>
-      <p>Minima odit aliquid incidunt quis dolores non, corporis voluptatem modi.  
-      Possimus libero consequuntur magnam facere fugit vero ab nesciunt officiis,  
-      necessitatibus doloribus placeat tenetur, aliquid quia maiores, aliquam dolorum   
-      quos labore vel nulla accusamus rerum nam facilis. Molestias repellat saepe   
-      incidunt, ex ipsa, sed libero suscipit pariatur ratione, deleniti quibusdam.</p>
+      <p>Minima odit aliquid incidunt quis dolores non, corporis modi.</p>
     </article>
     <article>
       <header>
         <h1>Header #3</h1>
       </header>
-      <p>Minima odit aliquid incidunt quis dolores non, corporis voluptatem modi.  
-      Possimus libero consequuntur magnam facere fugit vero ab nesciunt officiis,  
-      necessitatibus doloribus placeat tenetur, aliquid quia maiores, aliquam dolorum   
-      quos labore vel nulla accusamus rerum nam facilis. Molestias repellat saepe   
-      incidunt, ex ipsa, sed libero suscipit pariatur ratione, deleniti quibusdam.</p>
+      <p>Molestias repellat libero suscipit pariatur ratione, deleniti quibusdam.</p>
     </article>
     <article>
       <header>
         <h1>Header #4</h1>
       </header>
-     <p>Minima odit aliquid incidunt quis dolores non, corporis voluptatem modi.  
-      Possimus libero consequuntur magnam facere fugit vero ab nesciunt officiis,  
-      necessitatibus doloribus placeat tenetur, aliquid quia maiores, aliquam dolorum   
-      quos labore vel nulla accusamus rerum nam facilis. Molestias repellat saepe   
-      incidunt, ex ipsa, sed libero suscipit pariatur ratione, deleniti quibusdam.</p>
+     <p>Minima odit aliquid quis dolores non, corporis voluptatem modi.</p>
     </article>
     <article>
       <header>
         <h1>Header #5</h1>
       </header>
-      <p>Minima odit aliquid incidunt quis dolores non, corporis voluptatem modi.  
-      Possimus libero consequuntur magnam facere fugit vero ab nesciunt officiis,  
-      necessitatibus doloribus placeat tenetur, aliquid quia maiores, aliquam dolorum   
-      quos labore vel nulla accusamus rerum nam facilis. Molestias repellat saepe   
-      incidunt, ex ipsa, sed libero suscipit pariatur ratione, deleniti quibusdam.</p>
+      <p> 
+      Possimus libero consequuntur facere fugit vero ab nesciunt officiis.</p>
     </article>
   </section>
 </body>

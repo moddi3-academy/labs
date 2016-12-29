@@ -3,7 +3,6 @@
 
 **Мета:** Закріпити навички роботи із блочними, плаваючими елементами, використання класів, застосування позиціонування.
 
-
 **Світлофор**
 ![task1](img/1.png)
 
@@ -14,8 +13,7 @@
 ```
 ```css
 .lights{
-  width: 300px;
-  height: 300px;
+  width: 300px; height: 300px;
   border:1px solid #000;
   display:inline-block;
 }
@@ -75,8 +73,7 @@
     <div class="col2">
 	  <span>
 	    <time datetime="2016-09-21">21 вересня</time> 
-	    <div class="separator"></div>
-		  <time>15:13</time>
+	    <div class="separator"></div><time>15:13</time>
 	  </span>
 	</div>
 </header>
@@ -88,23 +85,19 @@ body{
 }
 header{
   line-height: 50px;
-  border:1px solid #dedede;
+  border:1px solid #dedede; border-radius: 3px;
   position: relative;
   height: 50px;
-  border-radius: 3px;
-  min-width: 600px; 
-  min-height: 50px; 
+  min-width: 600px; min-height: 50px; 
 }
 header > div{
   position: absolute;
 }
 .col1{
-  width: 50%;
-  left: 15px;
+  width: 50%; left: 15px;
 }
 .col2{
-  width: 50%;
-  right: 0px;
+  width: 50%; right: 0px;
 }
 .col2 > span{
   position: absolute;
@@ -118,5 +111,4 @@ header > div{
   padding: 0;
 }
 ```
-
 **Висновок:** Я закріпив навички роботи із блочними, плаваючими елементами, використання класів, застосування позиціонування.
