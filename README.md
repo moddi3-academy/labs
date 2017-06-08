@@ -1,4 +1,4 @@
-# LABS
+# LABS2017
 * [Lab 1](lab01/)
 * [Lab 2](lab02/)
 * [Lab 3](lab03/)
