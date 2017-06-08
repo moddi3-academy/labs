@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  /**{margin: 0; padding: 0;}*/
+  /*.controls{
+    top: 0;
+    margin-right: 25px;
+  }*/
+  </style>
+</head>
+<body>
+  <audio id="audio">
+    <source src="assets/2.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <canvas id="canvas">
+    HTML5 не поддерживается!
+  </canvas>
+  <div class="controls">
+    <button onclick="audioPlay()" type="button">Play</button>
+    <button onclick="audioPause()" type="button">Pause</button>
+  </div>
+  <script src="osc.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
