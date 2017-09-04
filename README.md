@@ -11,3 +11,8 @@
 * [Lab 10](lab10/)
 * [Lab 11](lab11/)
 * [Lab 12](lab12/)
+* [Lab 13](lab13/)
+* [Lab 14](lab14/)
+* [Lab 15](lab15/)
+* [Lab 16](lab16/)
+* [Lab 17](lab17/)
