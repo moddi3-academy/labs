@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>reg_form</title>
+  </head>
+  <body>
+    <form name="reg" action="reg.php" method="post">
+        <p>Прізвище: 
+        <input name="surname" type="text" size="20"></p>
+        <p>Ім'я: 
+        <input name="name" type="text" size="20"></p>
+        <p>Стать: Ч <input name="sex" type="radio" value="m" checked> Ж <input name="sex" type="radio" value="v"></p>
+        <p>Освіта: 
+        <select name="education">
+            <option selected value="Середня">Середня</option>
+            <option value="Неповна середня">Неповна середня</option>
+            <option value="Вища">Вища</option>
+            <option value="Неповна вища">Неповна вища</option>
+        </select>
+        <p>Хочу записатися на курси <input name="courses" value="courses" type="checkbox" checked></p>
+        <p>Чи звертались в нашу організацію? Так <input name="first_time" type="radio" value="yes"> Ні <input name="first_time" type="radio" value="no" checked></p>
+        <p><input value="Відправити" type="submit"></p>
+    </form>
+  </body>
+</html>
